@@ -1,0 +1,573 @@
+/************************** GENERAL CSS START **************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.containers-flex{
+    /* FLEX */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.containers-general{
+    width: 90%;
+    margin: auto;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h4{
+    font-size: 24px;
+}
+
+.display-none{
+    display: none;
+}
+
+.display-inline{
+    display: inline;
+}
+
+/************************** GENERAL CSS FINISH **************************/
+/************************** SECTION 1 START **************************/
+.container-1{
+    height: 396px;
+    margin-top: -95px;
+    padding: 0px 20px;
+}
+
+.amarillo-container{
+    position: absolute;
+    width: 600px;
+    right: 0px;
+    top: 0px;
+}
+
+.amarillo-pc{
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    width: 600px;
+}
+
+.amarillo-smartphone{
+    display: none;
+    position: absolute;
+    right: 0px;
+    z-index: -1;
+    width: 930px;
+}
+
+.container-1-middle{
+    max-width: 1100px;
+    height: 500px;
+    margin: 160px auto;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+}
+
+.container-1-title{
+    width: 400px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container-1-title h1,
+.container-1-title span{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.container-1-title span{
+    color: #dd71c6;
+}
+
+.button-appointment{
+    width: 188px;
+    padding: 10px;
+    background-color: #dd71c6;
+    border: 1px solid #db65c2;
+    color: white;
+}
+
+.container-1-middle-transparent{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 60%;
+    max-width: 500px;
+    height: 250px;
+    border-radius: 30px;
+    padding: 30px;
+    backdrop-filter: blur(10px); /* Adjust the blur strength as needed */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-1-middle-transparent p{
+    text-align: center;
+}
+
+.countdown{
+    height: 200px;
+    width: 200px;
+}
+
+.countdown-div{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}  
+
+.countdown-div table{
+    width: 100%;
+    height: 60%;
+    text-align: center;
+} 
+
+.countdown-div th{
+    color: #4287f5;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.countdown-div td{
+    font-weight: 550;
+    font-size: 24px;
+}
+
+/************************** SECTION 1 FINISH **************************/
+/************************** SECTION 2 START **************************/
+
+.container-2{
+    margin-top: 80px;
+    width: 100%;
+    height: auto;
+    padding: 50px 15px;
+    background-image: url('../images/background-images/rosa.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    gap: 30px;
+}
+
+
+.container-2-cards{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 30px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.container-2-cards-big{
+    width: 100%;
+    height: auto;
+}
+
+.container-2-cards svg{
+    width: 35px;
+    height: 35px;
+}
+
+.container-2-cards .svg-logo1{
+    fill: blue;
+}
+
+.container-2-cards .svg-logo2{
+    fill: green;
+}
+
+.container-2-cards .svg-logo3{
+    fill: orange;
+}
+
+.container-2-cards .svg-logo4{
+    fill: red;
+}
+
+.container-2-cards span{
+    color: grey;
+}
+
+.container-2-cards h4,
+.container-2-cards span{
+    font-size: 24px;
+}
+
+.container-2 button{
+    background-color: #ffd900;
+    border: 1px solid #ebc802;
+}
+
+/************************** SECTION 2 FINISH **************************/
+/************************** SECTION 3 START ***************************/
+
+.container-3{
+    height: auto;
+    padding: 5% 84px;
+    background-image: url('../images/background-images/azul.png');
+    background-size: cover;
+    gap: 40px;
+    color: white;
+}
+
+.container-3-text{
+    width: 400px;
+    height: auto;
+}
+
+.container-3-text h4{
+    margin-bottom:20px;
+}
+
+.container-3-text p{
+    margin-bottom: 30px;
+}
+
+/************************** SECTION 3 FINISH ***************************/
+/************************** SECTION 4 START ***************************/
+
+.container-4{
+    height: auto;
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+    padding: 5% 15px;
+    gap: 30px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.container-4 img{
+    max-width: 900px;
+    width: 100vw;
+}
+/************************** SECTION 4 FINISH ***************************/
+/************************** SECTION 5 START ***************************/
+
+.container-5{
+    flex-direction: column;
+    height: auto;
+    width: 90%;
+    margin: auto;
+    max-width: 1200px;
+    text-align: center;
+    padding: 5% 15px;
+}
+
+.container-5 span{
+    font-size: 24px;
+    color: #dd71c6;
+}
+
+.container-5-big-chart{
+    width: 100%;
+    height: auto;
+    max-width: 1200px;
+}
+
+.container-5-small-chart{
+    width: 350px;
+    margin-top: 20px;
+}
+
+.container-5-small-chart h5{
+    font-size: 21px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.container-5-small-chart.mass h5{
+    color: #4287f5;
+    border-bottom: 1px solid #74a8fc;
+}
+
+.container-5-small-chart.vital h5{
+    color: #d44cb7;
+    border-bottom: 1px solid #dd71c6;
+}
+
+.container-5-small-chart li{
+    text-align: left;
+    margin: auto;
+    width: 92%;
+    padding: 5px;
+}
+
+.container-5 button{
+    margin-top: 100px;
+}
+
+/************************** SECTION 5 FINISH ***************************/
+/************************** SECTION 6 START ***************************/
+
+.container-6{
+    flex-direction: column;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    align-items: baseline;
+    gap: 25px;
+}
+
+.container-6-faq{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container-6-faq-individual{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: whitesmoke;
+}
+
+.container-6-faq-onlclick{
+    padding: 20px 20px 10px 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-6-faq-onlclick:hover{
+    cursor: pointer;
+}
+
+.container-6-faq-onlclick svg{
+    fill: #d44cb7;
+}
+
+.container-6-text{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.67s ease;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.display-none-6{
+    height: 0px;
+    overflow: hidden;
+    transition: height 0.2s ease;
+}
+
+.display-block {
+    height:60px;
+}
+
+/************************** SECTION 6 FINISH ***************************/
+/************************** FOOTER START ***************************/
+
+footer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 1000px;
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    gap: 100px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer p{
+    display: inline;
+}
+
+footer svg{
+    fill: #d44cb7;
+    display: inline;
+}
+
+footer strong{
+    padding-left: 10px;
+}
+
+.footer-1{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-2{
+    width: 375px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.footer-2-columns{
+    display: flex;
+    flex-direction: column;
+}
+
+.copyright-footer{
+    margin-top: 70px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+.copyright-footer svg{
+    width: 25px;
+    height: 25px;
+    fill: #d44cb7;
+}
+
+/************************** FOOTER FINISH ***************************/
+/************************** MEDIA QUERIES START ***************************/
+
+@media (max-width: 1040px) {
+    .container-1-middle{
+        width: 100%;
+    }
+}
+
+@media (max-width: 950px) {
+
+    .container-1-middle{
+        flex-direction: column;
+        align-items: center;
+        gap: 56px;
+    }
+
+    .container-1-middle-transparent{
+        width: 500px;
+    }
+
+    .container-1{
+        height: 609px;
+    }
+
+    .container-2{
+        margin-top: 50px;
+    }
+
+    .amarillo-pc{
+        width: 640px;
+    }
+
+    .footer,
+    .footer-2,
+    .copyright-footer{
+        flex-direction: column;
+    }
+
+    .footer-1{
+        width: auto;
+    }
+      
+    .display-block {
+        height:75px;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .amarillo-pc{
+        display: none;
+    }
+    
+    .amarillo-smartphone{
+        display: inline;
+    }
+
+    .container-2{
+        margin-top: 31px;
+    }
+
+    .container-1-title{
+        width: 100%;
+    }
+
+    .container-3{
+        background-position: 750px -150px; 
+        padding: 5% 15px;
+    }
+
+    .display-none{
+        display: inline;
+    }
+    
+    .display-inline{
+        display: none;
+    }
+
+}
+
+@media (max-width: 550px) {
+
+    .container-1-middle-transparent{
+        width: 100%;
+    }
+
+    .countdown-div th{
+        font-size: 17px;
+    }
+
+    .countdown-div td {
+        font-size: 22px;
+    }
+
+    .container-3{
+        background-position: 530px -150px; 
+    }
+
+    .container-5 button{
+        margin-top: 50px;
+    }
+
+    .display-block {
+        height:95px;
+    }
+}
+
+
+@media (max-width: 460px) {
+    .display-block {
+        height:115px;
+    }
+}
