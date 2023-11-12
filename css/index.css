@@ -7,6 +7,10 @@
     font-size: 14px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .containers-flex{
     /* FLEX */
     display: flex;
@@ -492,6 +496,7 @@ footer strong{
     .footer,
     .footer-2,
     .copyright-footer{
+        gap: 15px;
         flex-direction: column;
     }
 
@@ -536,6 +541,10 @@ footer strong{
         display: none;
     }
 
+    .container-1-middle{
+        margin-top: 100px;
+    }
+
 }
 
 @media (max-width: 550px) {
@@ -569,5 +578,26 @@ footer strong{
 @media (max-width: 460px) {
     .display-block {
         height:115px;
+    }
+}
+
+
+@media (max-width: 370px) {
+
+    .amarillo-smartphone{
+        width: 1040px;
+    }
+
+    .container-1{
+        height: 788px;
+        padding: 10px;
+    }
+
+    .container-1-middle-transparent{
+        padding: 30px 5px;
+    }
+
+    .display-block {
+        height: 130px;
     }
 }
